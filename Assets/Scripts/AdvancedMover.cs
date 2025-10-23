@@ -16,7 +16,7 @@ public class AdvancedMover : MonoBehaviour
 
     bool grounded;
 
-    List<GameObject> targets = new List<GameObject>();
+    [SerializeField] List<GameObject> targets = new List<GameObject>();
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
